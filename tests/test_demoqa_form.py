@@ -48,8 +48,8 @@ def test_demoqa_form():
     browser.element('#hobbies-checkbox-2').click()
     browser.element('#hobbies-checkbox-3').click()
     browser.element('#hobbies-checkbox-1').should(have.js_property('checked', True))
-    browser.element('#hobbies-checkbox-1').should(have.js_property('checked', True))
-    browser.element('#hobbies-checkbox-1').should(have.js_property('checked', True))
+    browser.element('#hobbies-checkbox-2').should(have.js_property('checked', True))
+    browser.element('#hobbies-checkbox-3').should(have.js_property('checked', True))
 
     # Picture
     browser.element('#uploadPicture').send_keys(os.path.abspath('/Users/ivalnasyrov/Desktop/1.jpg'))

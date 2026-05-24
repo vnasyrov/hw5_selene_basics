@@ -172,7 +172,7 @@ browser.element('#uploadPicture').perform(
 """
 
 # Структура проекта:
-# hw5_selene_basics/              <- корень проекта
+# python_hw5_selene_basics/              <- корень проекта
 # ├── utils.py                      <- сюда кладём функцию path
 # ├── conftest.py                   <- фикстуры
 # ├── tests/
@@ -188,14 +188,14 @@ def path(file_name):                # file_name - параметр (имя фа�
         .joinpath(f'resources/{file_name}') # f'resources/{file_name}' - это f-строка
                                             # буква f перед кавычками означает что всё что в {}
                                             # будет заменено на значение параметра file_name
-                                            # например: /hw5_selene_basics/resources/1.jpg
+                                            # например: /python_hw5_selene_basics/resources/1.jpg
     )
 
 # если бы функция лежала в tests/test_demoqa_form.py - нужно два parent
 def path(file_name):
     return str(
-        Path(__file__).parent.parent        # /hw5_selene_basics/tests/ -> /hw5_selene_basics/
-        .joinpath(f'resources/{file_name}') # /hw5_selene_basics/resources/1.jpg
+        Path(__file__).parent.parent        # /python_hw5_selene_basics/tests/ -> /python_hw5_selene_basics/
+        .joinpath(f'resources/{file_name}') # /python_hw5_selene_basics/resources/1.jpg
     )
 
 # используем в тесте test_demoqa_form.py

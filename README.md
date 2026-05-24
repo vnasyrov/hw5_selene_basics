@@ -6,7 +6,7 @@ from datetime import datetime
 import os
 ```
 
-Указать браузер по имени
+# Указать браузер по имени
 ```python
 browser.config.driver_name = 'chrome'              # указать Chrome
 browser.config.driver_name = 'firefox'             # указать Firefox

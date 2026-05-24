@@ -4,15 +4,14 @@ from selenium import webdriver
 from pathlib import Path
 from datetime import datetime
 import os
+```
 
-"""
->>> УКАЗАТЬ БРАУЗЕР ПО ИМЕНИ <<<
-"""
-
+Указать браузер по имени
+```python
 browser.config.driver_name = 'chrome'              # указать Chrome
 browser.config.driver_name = 'firefox'             # указать Firefox
 browser.config.driver_name = 'edge'                # указать Edge
-
+```
 
 """
 >>> ПЕРЕДАТЬ ДРАЙВЕР С ОПЦИЯМИ - ЕДИНЫЙ ПОДХОД ДЛЯ ВСЕХ БРАУЗЕРОВ <<<

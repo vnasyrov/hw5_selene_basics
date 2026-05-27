@@ -1,6 +1,6 @@
 # Документация
-- [Selene DOC](https://github.com/qa-guru/selene/blob/main/DOC.md)
-- [Selene Wiki](https://github.com/qa-guru/knowledge-base/wiki/5.-Selene-%231)
+- [Selene. Роман Исаков](https://github.com/qa-guru/selene/blob/main/DOC.md)
+- [Selene. Яков Крамаренко](https://github.com/qa-guru/knowledge-base/wiki/5.-Selene-%231)
 
 # Указать браузер по имени
 ```python
